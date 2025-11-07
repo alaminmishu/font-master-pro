@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Master Pro - Test Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      line-height: 1.6;
+      background: #f5f5f5;
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #1e40af;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    .description {
+      color: #6b7280;
+      margin-bottom: 30px;
+    }
+
+    .test-section {
+      margin: 30px 0;
+      padding: 20px;
+      background: #f9fafb;
+      border-radius: 8px;
+      border-left: 4px solid #2563eb;
+    }
+
+    .excluded {
+      margin: 20px 0;
+      padding: 20px;
+      background: #fef3c7;
+      border-radius: 8px;
+      border-left: 4px solid #f59e0b;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 2px solid #e5e7eb;
+      border-radius: 6px;
+      margin: 5px;
+    }
+
+    code {
+      background: #1f2937;
+      color: #10b981;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+    }
+
+    pre {
+      background: #1f2937;
+      color: #e5e7eb;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    .feature-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .feature-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .feature-list li:before {
+      content: "✓ ";
+      color: #10b981;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    nav {
+      background: #1f2937;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Font Master Pro Test Page</h1>
+    <p class="description">
+      This page is designed to test the Font Master Pro extension. The text below should change
+      when you apply different font settings through the extension.
+    </p>
+
+    <div class="test-section">
+      <h2>Regular Text Content</h2>
+      <p>
+        This is a paragraph of regular text that should be affected by Font Master Pro.
+        Try changing the font family, size, line height, and letter spacing to see how
+        it transforms the appearance of this content.
+      </p>
+      <p>
+        The quick brown fox jumps over the lazy dog. This sentence contains every letter
+        of the English alphabet and is perfect for testing different fonts and text effects.
+      </p>
+    </div>
+
+    <div class="test-section">
+      <h2>Various Text Sizes</h2>
+      <h1>This is a large heading (H1)</h1>
+      <h2>This is a medium heading (H2)</h2>
+      <h3>This is a smaller heading (H3)</h3>
+      <p>This is regular paragraph text.</p>
+      <small>This is small text.</small>
+    </div>
+
+    <div class="test-section">
+      <h2>Test Presets Here</h2>
+      <p><strong>Modern Preset:</strong> Should apply Inter font with clean spacing</p>
+      <p><strong>Classic Preset:</strong> Should apply Merriweather with serif style</p>
+      <p><strong>Dyslexic-Friendly:</strong> Should apply Open Sans with extra spacing</p>
+      <p><strong>Professional:</strong> Should apply Roboto with subtle shadow</p>
+    </div>
+
+    <div class="test-section">
+      <h2>Text Shadow Testing</h2>
+      <p style="font-size: 24px;">
+        Enable text shadow in Font Master Pro to see a shadow effect on this text.
+        Try adjusting the horizontal offset, vertical offset, blur radius, and color.
+      </p>
+    </div>
+
+    <div class="test-section">
+      <h2>Feature List</h2>
+      <ul class="feature-list">
+        <li>Google Fonts Integration - 15+ popular fonts</li>
+        <li>Text Shadow Effects - Customizable shadows</li>
+        <li>Font Size Control - 8px to 32px range</li>
+        <li>Line Height Adjustment - 1.0 to 3.0 spacing</li>
+        <li>Letter Spacing Control - -2px to 10px</li>
+        <li>Preset Themes - 4 quick-apply themes</li>
+        <li>Per-Site Settings - Remember preferences per domain</li>
+        <li>Global/Local Toggle - Apply to all or current site</li>
+      </ul>
+    </div>
+
+    <div class="excluded">
+      <h2>Excluded Elements (Should NOT Change)</h2>
+      <p>These elements are excluded from font changes by design:</p>
+
+      <h3>Buttons:</h3>
+      <button>Primary Button</button>
+      <button>Secondary Button</button>
+
+      <h3>Input Fields:</h3>
+      <input type="text" placeholder="Text input">
+      <textarea placeholder="Textarea"></textarea>
+
+      <h3>Code Blocks:</h3>
+      <p>Inline code: <code>const x = 42;</code></p>
+      <pre>function hello() {
+  console.log('Hello World');
+}</pre>
+
+      <h3>Navigation:</h3>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+
+    <div class="test-section">
+      <h2>Dynamic Content Test</h2>
+      <p>Click the button below to add dynamic content. Font Master Pro should automatically apply your settings to the new content.</p>
+      <button onclick="addDynamicContent()">Add Dynamic Content</button>
+      <div id="dynamic-container"></div>
+    </div>
+
+    <div class="test-section">
+      <h2>Instructions</h2>
+      <ol>
+        <li>Install Font Master Pro extension in your browser</li>
+        <li>Click the extension icon in the toolbar</li>
+        <li>Try different presets or create custom settings</li>
+        <li>Click "Save" to apply changes to this page</li>
+        <li>Observe how the text transforms</li>
+        <li>Test both "Current Site" and "All Sites" modes</li>
+        <li>Try enabling/disabling with the master toggle</li>
+      </ol>
+    </div>
+  </div>
+
+  <script>
+    let dynamicCounter = 0;
+
+    function addDynamicContent() {
+      dynamicCounter++;
+      const container = document.getElementById('dynamic-container');
+      const newElement = document.createElement('p');
+      newElement.textContent = `Dynamic content #${dynamicCounter}: This text was added after page load. Font Master Pro should automatically apply your settings to this content thanks to MutationObserver.`;
+      newElement.style.marginTop = '10px';
+      newElement.style.padding = '10px';
+      newElement.style.background = 'white';
+      newElement.style.borderRadius = '4px';
+      container.appendChild(newElement);
+    }
+
+    // Log when Font Master Pro is active
+    window.addEventListener('load', () => {
+      console.log('Test page loaded. Waiting for Font Master Pro...');
+
+      // Check if extension is active
+      setTimeout(() => {
+        const fontMasterProStyle = document.getElementById('font-master-pro-styles');
+        if (fontMasterProStyle) {
+          console.log('✓ Font Master Pro is active!');
+          console.log('Applied CSS:', fontMasterProStyle.textContent);
+        } else {
+          console.log('Font Master Pro not detected. Make sure the extension is installed and enabled.');
+        }
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

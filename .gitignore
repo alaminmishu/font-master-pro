@@ -1,0 +1,35 @@
+# Build directories
+build-firefox/
+dist/
+
+# Node modules (if any)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Chrome extension development
+*.crx
+*.pem
+
+# Firefox extension development
+*.xpi
+web-ext-artifacts/
+
+# Generated icons (if not version controlled)
+# Uncomment if you want to regenerate icons each time
+# icons/*.png

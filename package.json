@@ -1,0 +1,31 @@
+{
+  "name": "font-master-pro",
+  "version": "1.0.0",
+  "description": "Advanced font customization browser extension with Google Fonts, text effects, and per-site preferences",
+  "main": "background.js",
+  "scripts": {
+    "build:firefox": "./build-firefox.sh",
+    "generate:icons": "./generate-icons.sh",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "chrome-extension",
+    "firefox-addon",
+    "font",
+    "typography",
+    "google-fonts",
+    "text-shadow",
+    "accessibility",
+    "dyslexic-friendly"
+  ],
+  "author": "Font Master Pro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/font-master-pro"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/font-master-pro/issues"
+  },
+  "homepage": "https://github.com/yourusername/font-master-pro#readme"
+}
